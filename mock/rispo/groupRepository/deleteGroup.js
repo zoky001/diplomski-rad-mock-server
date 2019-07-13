@@ -1,0 +1,136 @@
+var deleteGroup = {
+  path: '/group/delete',
+  method: 'POST',
+  render: function (req, res) {
+    var response = {
+      "success": true, "data": {
+        "id": 5957,
+        "name": null,
+        "kpo": null,
+        "mb": null,
+        "jmbg": null,
+        "oib": null,
+        "application": null,
+        "status": null,
+        "progress": 0.0,
+        "reportDate": null,
+        "owner": null,
+        "members": null,
+        "total": {
+          "id": null,
+          "brojPartije": null,
+          "brojUgovora": null,
+          "brojLimita": null,
+          "brojOkvira": null,
+          "balanceHrk": 0,
+          "balanceEur": 0,
+          "changeHrk": 0,
+          "changeEur": 0,
+          "collaterals": [],
+          "commited": false,
+          "interestRate": null,
+          "intRate": null,
+          "fees": null,
+          "lessThanYear": false,
+          "plasmanType": null,
+          "previousHrk": 0,
+          "previousEur": 0,
+          "proposedHrk": 0,
+          "proposedEur": 0,
+          "riskClass": null,
+          "securedBalanceHrk": 0,
+          "securedBalanceEur": 0,
+          "securedPreviousHrk": 0,
+          "securedPreviousEur": 0,
+          "securedProposedHrk": 0,
+          "securedProposedEur": 0,
+          "source": "MI",
+          "spread": 0,
+          "taker": null,
+          "tenor": null,
+          "typeOfCredit": null,
+          "selected": false,
+          "isNew": false,
+          "clientId": null,
+          "owner": null,
+          "grouped": false,
+          "groupedExposureId": null,
+          "groupedClientId": null,
+          "tip": 99,
+          "newChange": 0,
+          "newBalance": 0,
+          "newPrevious": 0,
+          "newProposed": 0,
+          "newSecuredBalance": 0,
+          "newSecuredPrevious": 0,
+          "newSecuredProposed": 0,
+          "displayed": true,
+          "tenorDate": {
+            "dayOfMonth": 9,
+            "dayOfWeek": 5,
+            "era": 1,
+            "year": 2018,
+            "dayOfYear": 313,
+            "weekOfWeekyear": 45,
+            "secondOfMinute": 43,
+            "millisOfSecond": 242,
+            "yearOfEra": 2018,
+            "yearOfCentury": 18,
+            "weekyear": 2018,
+            "centuryOfEra": 20,
+            "monthOfYear": 11,
+            "hourOfDay": 13,
+            "minuteOfHour": 29,
+            "millisOfDay": 48583242,
+            "minuteOfDay": 809,
+            "secondOfDay": 48583,
+            "millis": 1541766583242,
+            "zone": {
+              "fixed": false,
+              "uncachedZone": {"fixed": false, "cachable": true, "id": "Europe/Belgrade"},
+              "id": "Europe/Belgrade"
+            },
+            "chronology": {
+              "zone": {
+                "fixed": false,
+                "uncachedZone": {"fixed": false, "cachable": true, "id": "Europe/Belgrade"},
+                "id": "Europe/Belgrade"
+              }
+            },
+            "afterNow": false,
+            "beforeNow": false,
+            "equalNow": true
+          },
+          "conditions": "0",
+          "anyPlacementChangedHrk": false,
+          "lessThanYearAsString": "-",
+          "anyPlacementChangedEur": false,
+          "tenorLaterThanToday": true,
+          "class": "hr.zaba.ewm.rispo.model.exposure.Exposure"
+        },
+        "creationDate": null,
+        "currency": null,
+        "djelomicanDohvat": false,
+        "dohvatPoPostojecimClanicama": false,
+        "orgJed": null,
+        "intRateHRK": 0,
+        "intRateEUR": 0,
+        "feesHRK": 0,
+        "feesEUR": 0,
+        "locked": false,
+        "exposureView": "",
+        "exposureViewForEditView": "",
+        "creationDateAsString": "",
+        "reportDateAsString": "",
+        "class": "hr.zaba.ewm.rispo.model.group.Group"
+      }
+    }
+
+
+    res.status(200).send(response);
+  }
+
+
+};
+
+module.exports = [deleteGroup];

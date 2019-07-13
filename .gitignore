@@ -1,0 +1,16 @@
+/*.iml
+/*.log
+/.idea
+/.settings
+/.project
+/.vscode
+/.karma
+/target
+/nbproject
+/node_modules
+/bower_components
+/src/main/ng2/**/*.js
+/src/main/ng2/**/*.js.map
+
+#Files
+npm-debug.log
